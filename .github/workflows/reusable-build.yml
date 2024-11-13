@@ -28,8 +28,7 @@ jobs:
         fedora_version:
           - ${{ inputs.fedora_version }}
         image_name:
-          - silverblue
-          - kinoite
+          - cosmic
           
     steps:
       # Checkout push-to-registry action GitHub repository
