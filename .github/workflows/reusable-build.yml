@@ -28,7 +28,7 @@ jobs:
         fedora_version:
           - ${{ inputs.fedora_version }}
         image_name:
-          - cosmic
+          - cosmic-atomic
           
     steps:
       # Checkout push-to-registry action GitHub repository
