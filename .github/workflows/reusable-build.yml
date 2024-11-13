@@ -191,7 +191,7 @@ jobs:
             SOURCE_IMAGE=${{ env.SOURCE_IMAGE }}
             FEDORA_MAJOR_VERSION=${{ matrix.fedora_version }}
             KERNEL_VERSION=${{ env.KERNEL_VERSION }}
-            IMAGE_REGISTRY=${{ env.IMAGE_REGISTRY }}
+            IMAGE_REGISTRY=${{ env.IMAGE_REGISTRY_UBLUE }}
           labels: ${{ steps.meta.outputs.labels }}
           oci: false
 
